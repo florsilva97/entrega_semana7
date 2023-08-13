@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+  
+    <style>
+        .boton button{
+            padding: 5px;
+            background-color: green;
+        }
+    </style>
+
 </head>
+
 <body>
-    <input type="button" name= "Boton" value="Saludar" onclick="alerta()">
-    
-    <script> 
-    function alerta() {
-    alert ("Hola!");
-    }
+    <div class="boton">
+        <button type="button" onclick="alerta()"> Saludar </button>
+    </div>
+
+    <script>
+        function alerta() {
+            alert("Hola!");
+        }
     </script>
+
+<script src="eventos.js"></script>
 </body>
+
 </html>
